@@ -16,9 +16,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ################################################################################
-# allows other modules to import lib.Project, etc.
-from rootfs import cRootfs
-from launcher import cLauncher
-from config import cConfig
-from dbus import cDbus
-from sanity_check import cSanityCheck
+from rootfs import cRootfsDobby
+from launcher import cLauncherDobby
+from config import cConfigDobby
